@@ -1,0 +1,107 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Select Styles */
+select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Custom Color Styles */
+.custom-color {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Random Color Styles */
+.random-color {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Change Color Button Styles */
+.change-color-button {
+    background-color: #28a745;
+}
+
+/* Change Color Button Hover Styles */
+.change-color-button:hover {
+    background-color: #1e7e34;
+}
+
+/* Change Color Button Active Styles */
+.change-color-button:active {
+    background-color: #1e7e34;
+}
