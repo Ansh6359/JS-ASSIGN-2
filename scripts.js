@@ -18,7 +18,7 @@ const colorRanges = [
 // Function to change background color and display student ID
 function changeCustomColor() {
     const inputValue = parseInt(customNumberInput.value);
-    myStudentId.textContent = "Your Student ID: 200542632";  //my student id 
+    myStudentId.textContent = "Your Student ID: 200542632";
     const matchingColor = colorRanges.find(range => inputValue >= range.min && inputValue <= range.max);
     if (matchingColor) {
         document.body.style.backgroundColor = matchingColor.color;
@@ -36,7 +36,7 @@ function changeRandomColor() {
 
 // Function to generate options for the image names and update image
 function updateImageOptions() {
-    const imageSrcArray = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"];
+    const imageSrcArray = ["./img1.jpg", "./img2.jpg", "./img3.jpg", "./img4.jpg", "./img5.jpg"];
     imageSelect.innerHTML = "<option value=''>Please choose...</option>";
 
     imageSrcArray.forEach((src, index) => {
