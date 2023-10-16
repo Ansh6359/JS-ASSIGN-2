@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>  
+    <link rel="stylesheet" type="text/css" href="./css/style.css"> <!-- Link to an external CSS stylesheet -->
+</head>
+<body>
+    <div>
+        <p id="myStudentId"></p> <!-- Paragraph element with an empty ID -->
+    </div>
+    <div>
+        <label for="customNumber">Enter number from 1 to 100:</label>
+        <input id="customNumber" type="number" placeholder="" /> <!-- Input field for a custom number -->
+    </div>
+    <div>
+        <button class="custColor">Change custom color</button> <!-- Button for changing a custom color -->
+        <button class="randColor">Change random color</button> <!-- Button for changing a random color -->
+    </div>
+    <div>
+        <label for="imageSelect">Select Image</label>
+        <select id="imageSelect">
+            <option value="img1.jpg">Image 1</option>
+            <option value="img2.jpg">Image 2</option>
+            <option value="img3.jpg">Image 3</option>
+            <option value="img4.jpg">Image 4</option>
+            <option value="img5.jpg">Image 5</option>
+        </select> <!--  select element for image selection -->
+    </div>
+    <div>
+        <img id="images" src="./img/img1.jpg" alt=""> <!-- Image element with an initial image source -->
+    </div>
+    <script src="./js/scripts.js" defer></script> 
+</body>
+</html>
